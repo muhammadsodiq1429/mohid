@@ -80,7 +80,23 @@
         h1 {
           font-size: 50px;
         }
-        p {
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .hero {
+    &__wrapper {
+      &__content {
+        // .search {
+        //   display: none;
+        //   button {
+        //     display: none;
+        //   }
+        // }
+        h1 {
+          font-size: 36px;
         }
       }
     }
